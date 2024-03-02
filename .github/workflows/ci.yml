@@ -20,6 +20,4 @@ jobs:
 
       - name: Run tests
         run: |
-          sudo apt install pip
-          sudo pip install unittest
           python3 -m unittest test_suma.py
