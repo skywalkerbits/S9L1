@@ -1,5 +1,5 @@
 import unittest
-from dividir import dividir
+from dividir.py import dividir
 
 class TestDividir(unittest.TestCase):
     def test_division_positiva(self):
