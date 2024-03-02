@@ -20,6 +20,9 @@ jobs:
         python-version: 3.8
 
     - name: Run tests
-      run: |
+      shell : bash -l {0}
+      run: |       
+        apt install pip
+        pip install unnitest
         python unittest test_suma.py
         python unittest test_dividir.py
