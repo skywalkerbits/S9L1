@@ -1,5 +1,5 @@
 import unittest
-from multiplicar.py import multiplicar
+from multiplicar import multiplicar
 
 class TestMultiplicar(unittest.TestCase):
     def test_multiplicacion_positiva(self):
