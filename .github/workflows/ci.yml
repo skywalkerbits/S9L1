@@ -22,5 +22,5 @@ jobs:
     - name: Run tests
       shell : bash -l {0}
       run: |       
-        python3 -m unittest test_suma.py  
+        python3 -m unittest .\test_suma.py  
         python3 -m unittest .\test_dividir.py
