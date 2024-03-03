@@ -1,10 +1,8 @@
 # fichero operaciones.py . Donde se guardan todas las operaciones que ejecuta nuestra app/calculadora
 
 # suma
-def sumar(self):
-        self.assertEqual(sumar(3, 2), 5)
-        self.assertEqual(sumar(-1, 1), 0)
-        self.assertEqual(sumar(-1, -1), -2)
+def sumar(a, b):
+    return a + b
 
 #resta
 def restar(a, b):
