@@ -38,6 +38,6 @@ class Test_Operaciones(unittest.TestCase):
  # suma
 
     def test_sumar(self):
-        self.assertEqual(sumar(3, 7))
+        self.assertEqual(sumar(3, 7), 10)
         self.assertEqual(sumar(-3, 3), 0)
         self.assertEqual(sumar(-2, -4), -6)
